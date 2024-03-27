@@ -1,5 +1,5 @@
 # PDF AI Assistant with FAISS VECTORSTORE
-PDFAI Assistant is a conversational AI chatbot built using Streamlit, designed to query and understand content from specified PDF documents. By leveraging the power of LangChain, OpenAI's embeddings, and Streamlit's interactive capabilities, PDFAI Assistant offers an intuitive interface for users to interact with and retrieve information from a knowledge base constructed from document content.
+PDF AI Assistant is a conversational AI chatbot built using Streamlit, designed to query and understand content from specified PDF documents. By leveraging the power of LangChain, OpenAI's embeddings, and Streamlit's interactive capabilities, PDFAI Assistant offers an intuitive interface for users to interact with and retrieve information from a knowledge base constructed from document content.
 
 # Features #
   a. PDF Document Processing: PDFAI Assistant allows for the upload of PDF documents, enhancing its knowledge base with the content extracted from these documents.
