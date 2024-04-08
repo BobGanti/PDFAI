@@ -9,8 +9,8 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
-from langchain.chains.question_answering import load_qa_chain
-from langchain.prompts import PromptTemplate
+#from langchain.chains.question_answering import load_qa_chain
+#from langchain.prompts import PromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 load_dotenv(".env")
