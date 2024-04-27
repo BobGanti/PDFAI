@@ -19,18 +19,18 @@ pip install -r requirements.txt
   > dotenv (for environment variable management)
 
 # Setup #
-1. Environment Variables: Rename .env.local.example to .env.local and update the variables within to match your   
+1. Customsation: Modify the .env.local file to tailor the assistant's behavior and responses to your preferences.
   configuration:
   a. OPENAI_API_KEY: Your OpenAI API key for embeddings and chat.
   b. INSTRUCTIONS: Default instructions for querying.
   c. ASSISTANT_PROFILE: Customize the assistant's profile.
-2. Run the Application: Start the SMAI Assistant by running the Streamlit application.
-  streamlit run pdfs.py
+3. Run the Application: Start the SMAI Assistant by running the Streamlit application.<br>
+  "streamlit run pdfs.py
 
 # Usage #
-  > Adding Content Sources: Use the sidebar to upload PDF documents to augment the chatbot's knowledge base.
-  > Interacting with the Chatbot: Enter queries in the chat input field to receive responses based on the aggregated knowledge from the specified uploaded PDFs.
-  > Customization: Modify the .env.local file to tailor the assistant's behavior and responses to your preferences.
+## Adding Content
+  > Use the sidebar to upload PDF documents to augment the chatbot's knowledge base.<br>
+  > To Interact with the Chatbot, enter queries in the chat input field to receive responses based on the aggregated knowledge from the specified uploaded files.<br>
 
 # Contributing #
 Contributions are welcome! If you have suggestions for improvements or bug fixes, please open an issue or submit a pull request.
